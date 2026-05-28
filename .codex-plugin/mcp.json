@@ -1,0 +1,19 @@
+{
+  "mcpServers": {
+    "context-mode": {
+      "command": "node",
+      "args": ["./start.mjs"],
+      "cwd": ".",
+      "env": {
+        "HTTP_PROXY": "http://127.0.0.1:7890",
+        "HTTPS_PROXY": "http://127.0.0.1:7890",
+        "ALL_PROXY": "socks5h://127.0.0.1:7891",
+        "http_proxy": "http://127.0.0.1:7890",
+        "https_proxy": "http://127.0.0.1:7890",
+        "all_proxy": "socks5h://127.0.0.1:7891",
+        "NO_PROXY": "localhost,127.0.0.1,::1,10.0.0.0/8,192.168.0.0/16,172.16.0.0/12",
+        "no_proxy": "localhost,127.0.0.1,::1,10.0.0.0/8,192.168.0.0/16,172.16.0.0/12"
+      }
+    }
+  }
+}
